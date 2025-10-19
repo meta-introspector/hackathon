@@ -1,7 +1,7 @@
 # Hackathon Idea: Deterministic Arena with Secure, Provable Agents
 
 ## 1. Overview
-This hackathon proposes the development of a deterministic arena-based game, inspired by Crobots, where autonomous agents compete. A core innovation lies in the agents' ability to interact with the environment and each other through a secure, provable access control system, mediated by a virtual currency.
+This hackathon proposes the development of a deterministic arena-based game, inspired by Crobots https://en.wikipedia.org/wiki/Crobots , where autonomous agents compete. A core innovation lies in the agents' ability to interact with the environment and each other through a secure, provable access control system, mediated by a virtual currency.
 
 ### The Battle Royale of Memes
 Imagine a Fortnite-like battle royale, but instead of human players, autonomous agents (representing memes) compete within the arena. The goal is to propagate and dominate the memetic landscape, with agents engaging in strategic interactions, resource acquisition, and even temporal manipulations through time loops.
