@@ -1,0 +1,10 @@
+name = "tradewars-hackathon"
+main = "game/api.js"
+compatibility_date = "2024-01-01"
+
+[site]
+bucket = "./game"
+
+[[kv_namespaces]]
+binding = "GAME_DATA"
+id = "tradewars_kv"
