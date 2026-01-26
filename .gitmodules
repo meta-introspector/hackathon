@@ -1,0 +1,3 @@
+[submodule "spacetrader3k"]
+	path = spacetrader3k
+	url = https://github.com/clintecker/spacetrader3k.git
