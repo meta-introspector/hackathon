@@ -5,7 +5,7 @@ Educational games for HuggingFace Spaces
 import gradio as gr
 
 def create_game_interface():
-    with gr.Blocks(title="Project Provenance - Hackathon", theme=gr.themes.Soft()) as demo:
+    with gr.Blocks(title="Project Provenance - Hackathon") as demo:
         gr.Markdown("""
         # 🎮 Project Provenance - Hackathon Games
         **Educational games teaching data provenance and systems thinking**
@@ -49,7 +49,7 @@ trade!("RustBlock", 2)
 
 // Navigate between sectors
 navigate!(1, 2)
-                """, language="rust")
+                """, language="javascript")
             
             with gr.Tab("🧬 Project Provenance"):
                 gr.Markdown("""
@@ -127,4 +127,4 @@ navigate!(1, 2)
 
 if __name__ == "__main__":
     demo = create_game_interface()
-    demo.launch()
+    demo.launch(theme=gr.themes.Soft())
