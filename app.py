@@ -23,10 +23,8 @@ def create_game_interface():
                 - RF, TG, YH, UJ, IK: Dimensions 4-8
 
                 Each emoji particle represents a real performance trace.
-                """)
-
-                gr.HTML("""
-                <iframe src="game/index.html" width="100%" height="600px" frameborder="0"></iframe>
+                
+                **Note:** 8D game available at: [GitHub](https://github.com/meta-introspector/hackathon/tree/main/game)
                 """)
 
             with gr.Tab("🌌 TradeWars 3033"):
