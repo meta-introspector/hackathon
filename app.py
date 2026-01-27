@@ -129,4 +129,4 @@ navigate!(1, 2)
 
 if __name__ == "__main__":
     demo = create_game_interface()
-    demo.launch(theme=gr.themes.Soft())
+    demo.launch()
