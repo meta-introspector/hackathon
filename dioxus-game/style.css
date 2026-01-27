@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Courier New', monospace;
+    background: #0a0a0a;
+    color: #00ff00;
+    padding: 20px;
+}
+
+.game-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+    border: 2px solid #00ff00;
+    padding: 20px;
+    background: #001100;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    padding: 15px;
+    background: #001100;
+    border: 1px solid #00ff00;
+}
+
+.game-view {
+    margin-bottom: 20px;
+}
+
+.meme-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.meme-card {
+    border: 2px solid #00ff00;
+    padding: 15px;
+    background: #001100;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.meme-card:hover {
+    background: #002200;
+    transform: scale(1.05);
+}
+
+.meme-emoji {
+    font-size: 3em;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.meme-id {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.meme-cycles {
+    color: #ffff00;
+    margin-bottom: 5px;
+}
+
+.meme-fitness {
+    color: #00ffff;
+}
+
+.meme-details {
+    border: 3px solid #ffff00;
+    padding: 20px;
+    background: #110011;
+    margin-bottom: 20px;
+}
+
+.meme-details h3 {
+    margin-bottom: 15px;
+    color: #ffff00;
+}
+
+.meme-details button {
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+.controls {
+    border: 2px solid #00ff00;
+    padding: 20px;
+    background: #001100;
+    margin-bottom: 20px;
+}
+
+.controls h3 {
+    margin-bottom: 15px;
+}
+
+button {
+    background: #00ff00;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background: #00ff00;
+    transform: scale(1.1);
+}
+
+.info {
+    border: 2px solid #00ff00;
+    padding: 20px;
+    background: #001100;
+    text-align: center;
+}
+
+.info h3 {
+    margin-bottom: 10px;
+    color: #ffff00;
+}
+
+.info p {
+    margin-bottom: 5px;
+}
